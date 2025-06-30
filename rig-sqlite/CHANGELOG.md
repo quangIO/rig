@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.12](https://github.com/quangIO/rig/compare/rig-sqlite-v0.1.11...rig-sqlite-v0.1.12) - 2025-06-30
+
+### Other
+
+- Make clippy happy on all targets ([#542](https://github.com/quangIO/rig/pull/542))
+
 ## [0.1.11](https://github.com/0xPlaygrounds/rig/compare/rig-sqlite-v0.1.10...rig-sqlite-v0.1.11) - 2025-06-09
 
 ### Other

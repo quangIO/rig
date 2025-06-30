@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1](https://github.com/quangIO/rig/compare/rig-bedrock-v0.2.0...rig-bedrock-v0.2.1) - 2025-06-30
+
+### Other
+
+- Make clippy happy on all targets ([#542](https://github.com/quangIO/rig/pull/542))
+
 ## [0.2.0](https://github.com/0xPlaygrounds/rig/compare/rig-bedrock-v0.1.3...rig-bedrock-v0.2.0) - 2025-06-09
 
 ### Added

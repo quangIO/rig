@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.15](https://github.com/quangIO/rig/compare/rig-qdrant-v0.1.14...rig-qdrant-v0.1.15) - 2025-06-30
+
+### Other
+
+- Make clippy happy on all targets ([#542](https://github.com/quangIO/rig/pull/542))
+
 ## [0.1.14](https://github.com/0xPlaygrounds/rig/compare/rig-qdrant-v0.1.13...rig-qdrant-v0.1.14) - 2025-06-09
 
 ### Other

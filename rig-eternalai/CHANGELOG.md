@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.8](https://github.com/quangIO/rig/compare/rig-eternalai-v0.2.7...rig-eternalai-v0.2.8) - 2025-06-30
+
+### Other
+
+- Make clippy happy on all targets ([#542](https://github.com/quangIO/rig/pull/542))
+
 ## [0.2.7](https://github.com/0xPlaygrounds/rig/compare/rig-eternalai-v0.2.6...rig-eternalai-v0.2.7) - 2025-06-09
 
 ### Other

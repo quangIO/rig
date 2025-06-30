@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.14.0](https://github.com/quangIO/rig/compare/rig-core-v0.13.0...rig-core-v0.14.0) - 2025-06-30
+
+### Added
+
+- *(rig-766)* add support for Voyage AI ([#493](https://github.com/quangIO/rig/pull/493))
+- *(rig-789)* add support for loading in pdfs/files as Vec<u8> ([#523](https://github.com/quangIO/rig/pull/523))
+- multi turn streaming example ([#413](https://github.com/quangIO/rig/pull/413))
+- *(rig-754)* support custom client configurations ([#511](https://github.com/quangIO/rig/pull/511))
+
+### Fixed
+
+- *(rig-792)* inconsistent implementations of with_custom_client ([#530](https://github.com/quangIO/rig/pull/530))
+- *(rig-783)* tool call example doesn't work with Gemini and OpenRouter ([#515](https://github.com/quangIO/rig/pull/515))
+- *(rig-773)* xAI embeddings endpoint is wrong ([#492](https://github.com/quangIO/rig/pull/492))
+
+### Other
+
+- error fixes for clarity
+- Make clippy happy on all targets ([#542](https://github.com/quangIO/rig/pull/542))
+- *(rig-791)* documents not consistently added to DeepSeek prompts ([#528](https://github.com/quangIO/rig/pull/528))
+- Fix `ToolResult` serialization in ollama provider ([#504](https://github.com/quangIO/rig/pull/504))
+
 ## [0.13.0](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.12.0...rig-core-v0.13.0) - 2025-06-09
 
 ### Added
