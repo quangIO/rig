@@ -539,8 +539,8 @@ pub mod gemini_api_types {
                         }
                     };
                     // Convert to JSON since this value may be a valid JSON value
-                    let result: serde_json::Value = serde_json::from_str(&content)
-                        .map_err(|x| MessageError::ConversionError(x.to_string()))?;
+                    let result: serde_json::Value =
+                        serde_json::from_str(&content).unwrap_or_else(|_| json!(content));
                     Ok(Part {
                         thought: Some(false),
                         thought_signature: None,
