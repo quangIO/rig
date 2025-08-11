@@ -300,7 +300,7 @@ pub mod gemini_api_types {
     use crate::{
         OneOrMany,
         completion::CompletionError,
-        message::{self, MessageError, MimeType as _, Reasoning, Text},
+        message::{self, MimeType as _, Reasoning, Text},
         providers::gemini::gemini_api_types::{CodeExecutionResult, ExecutableCode},
     };
 
