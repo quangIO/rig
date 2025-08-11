@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.2](https://github.com/quangIO/rig/compare/rig-core-v0.17.1...rig-core-v0.17.2) - 2025-08-11
+
+### Added
+
+- added get_tool_definitions ([#666](https://github.com/quangIO/rig/pull/666))
+
+### Fixed
+
+- *(rig-864)* missing id from OpenAI Responses API for reasoning items ([#681](https://github.com/quangIO/rig/pull/681))
+
+### Other
+
+- *(rig-862)* remove sync bound from fn call() in tool trait ([#678](https://github.com/quangIO/rig/pull/678))
+- 删除gemini providers中重复的方法 ([#675](https://github.com/quangIO/rig/pull/675))
+
 ## [0.17.1](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.17.0...rig-core-v0.17.1) - 2025-08-05
 
 ### Other
